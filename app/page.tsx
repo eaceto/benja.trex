@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <div>
-      <div style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0 }}>
+      <div style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0 , zIndex: -1}}>
         <Image
           className={styles.logo}
           src="/bosque.jpg"
@@ -17,15 +18,18 @@ export default function Home() {
           priority
         />
       </div>
-      <main className={styles.main}>
+      <main className={styles.main} style={{zIndex: 1}}>
         <div className={styles.description}>
           <p>
             I am&nbsp;
             <code className={styles.code}>Benjamín</code>
           </p>
         </div>
-        <div className={styles.center}>
-        </div>
+        <Link href="/">
+          <div style={{backgroundColor: 'grey', opacity: 0.9, padding: 16, borderRadius: 8}}>
+            Jugar a la multiplicación
+          </div>
+        </Link>
       </main>
     </div>
   )
