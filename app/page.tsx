@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <Link href="/">
           <div style={{backgroundColor: 'grey', opacity: 0.9, padding: 16, borderRadius: 8}}>
-            Jugar a la multiplicación
+          <code className={styles.code}>Jugar a la multiplicación</code>
           </div>
         </Link>
       </main>
