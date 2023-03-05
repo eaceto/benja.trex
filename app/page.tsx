@@ -14,7 +14,7 @@ export default function Home() {
           src="/bosque.jpg"
           alt="Bosque"
           fill
-          style={{ objectFit: "cover" }}
+          style={{ objectFit: "cover" , filter: 'none'}}
           priority
         />
       </div>
