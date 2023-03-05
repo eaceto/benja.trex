@@ -25,7 +25,7 @@ export default function Home() {
             <code className={styles.code}>Benjamín</code>
           </p>
         </div>
-        <Link href="/">
+        <Link href="/multiplicaciones">
           <div style={{backgroundColor: 'grey', opacity: 0.9, padding: 16, borderRadius: 8}}>
           <code className={styles.code}>Jugar a la multiplicación</code>
           </div>
