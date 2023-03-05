@@ -9,6 +9,7 @@ export default function Multiplicaciones() {
                 <h1>
                     Esto es un juego para aprender las tablas del 1 al 10
                 </h1>
+
                 <h2>
                     Tabla del 1
                 </h2>
@@ -26,6 +27,24 @@ export default function Multiplicaciones() {
                         <li >1 * 10 = 10</li>
                     </ul>
                 </div>
+
+                <h2>Tabla del 2</h2>
+                <div>
+                    <ul>
+                        <li>2 * 1 = 2</li>
+                        <li>2 * 2 = 4</li>
+                        <li>2 * 3 = 6</li>
+                        <li>2 * 4 = 8</li>
+                        <li>2 * 5 = 10</li>
+                        <li>2 * 6 = 12</li>
+                        <li>2 * 7 = 14</li>
+                        <li>2 * 8 = 16</li>
+                        <li>2 * 9 = 18 </li>
+                        <li>2 * 10 = 20</li>
+                    </ul>
+                </div>
+
+                <h2></h2>
             </main>
         </div>
     )
