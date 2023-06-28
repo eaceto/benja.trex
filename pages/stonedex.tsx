@@ -4,11 +4,15 @@ import styles from '../app/page.module.css'
 
 export default function Stonedex() {
     return (
-        <div className={styles.pokecontainer}>            
-            { crearPiedra(1, "Pirita", "Dorado Brillante", 7, ["Aries", "Libra", "Sagitario", "Piscis"]) },
-            { crearPiedra(2, "Agata", "Clores Varios", 1, ["Libra", "Leo", "Géminis", "Cáncer", "Virgo", "Piscis", "Escorpio"]) },
-            { crearPiedra(3, "Cristal de Roca", "Transparente", 9, ["Todos"]) },
-            { crearPiedra(4, "Cuarzo Rosa", "De rosa claro a rosa rojizo", 7, ["Tauro", "Leo", "Cáncer", "Libra"]) }
+        <div>
+            <h1>Stonedex</h1>
+            <p>Una Pokedex pero de piedras energéticas</p>
+            <div className={styles.pokecontainer}>            
+                { crearPiedra(1, "Pirita", "Dorado Brillante", 7, ["Aries", "Libra", "Sagitario", "Piscis"]) }
+                { crearPiedra(2, "Agata", "Clores Varios", 1, ["Libra", "Leo", "Géminis", "Cáncer", "Virgo", "Piscis", "Escorpio"]) }
+                { crearPiedra(3, "Cristal de Roca", "Transparente", 9, ["Todos"]) }
+                { crearPiedra(4, "Cuarzo Rosa", "De rosa claro a rosa rojizo", 7, ["Tauro", "Leo", "Cáncer", "Libra"]) }
+            </div>
         </div>
     )
 }
