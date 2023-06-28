@@ -41,7 +41,7 @@ function crearPiedra(numero: number, nombre: string, colorName: string, numeroAs
     
     return <div className={styles.pokemon} style={{backgroundColor: color}}>
         <div className="imgcontainer">
-            <img src={"./stonedex/" + nombre.replaceAll(' ', '_') + ".JPG"} style={{ width: 64, height: 64 }} alt={nombre} />
+            <img src={"./stonedex/" + nombre.replaceAll(' ', '_').toLowerCase() + ".JPG"} style={{ width: 64, height: 64 }} alt={nombre} />
         </div>
         <div className={styles.info}>
             <span className={styles.number}>{identificador}</span>
